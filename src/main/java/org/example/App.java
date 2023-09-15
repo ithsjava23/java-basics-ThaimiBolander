@@ -1,8 +1,12 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class App {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         String menu = """
                 Elpriser
                 ========
@@ -13,6 +17,7 @@ public class App {
                 e. Avsluta
                 """;
         System.out.println(menu);
+        System.out.println("Programmet avslutas \n");
     }
 
 
