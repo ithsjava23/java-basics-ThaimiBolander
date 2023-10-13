@@ -101,6 +101,10 @@ class AppTest {
         provideInput(input);
         App.main(null);
         String response = """
+                23-24 40 öre
+                01-02 30 öre
+                00-01 20 öre
+                02-03 10 öre
                 Lägsta pris: 02-03, 1 öre/kWh
                 Högsta pris: 00-01, 100 öre/kWh
                 Medelpris: 13,38 öre/kWh
