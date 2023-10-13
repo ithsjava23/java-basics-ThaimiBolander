@@ -10,6 +10,7 @@ public class App {
     public static final int HOURS_OF_DAY = 24;
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.of("sv","SE"));
         Scanner scanner = new Scanner(System.in);
         TimeAndPrice[] prices = new TimeAndPrice[0];
         String choice;
