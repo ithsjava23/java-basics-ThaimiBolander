@@ -49,8 +49,8 @@ public class App {
                     + prices[i + 2].price()
                     + prices[i + 3].price();
             if (next < current) {
-                lowest4HourIndex = 1;
-                break;
+                lowest4HourIndex = i;
+
             }
         }
 
