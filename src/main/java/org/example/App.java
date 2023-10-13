@@ -33,7 +33,7 @@ public class App {
                 case "3" -> printSorted(prices);
                 case "4" -> printBest4Hours(prices);
             }
-            System.out.println(Arrays.toString(prices));
+
         }while(!choice.equalsIgnoreCase("e"));
     }
 
